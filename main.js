@@ -18,7 +18,7 @@ const loader = new THREE.TextureLoader();
 
 const geometry = new THREE.PlaneGeometry(5, 3, 50, 30);
 const material = new THREE.MeshBasicMaterial({
-  map: loader.load("../assets/images/flag-image.jpg"),
+  map: loader.load("assets/images/flag-image.jpg"),
 });
 const flag = new THREE.Mesh(geometry, material);
 scene.add(flag);
